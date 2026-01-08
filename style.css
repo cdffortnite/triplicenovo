@@ -44,44 +44,6 @@ CSS INDEX
 
 
 /* ============================================
-0.               Global Tokens
-===============================================*/
-:root {
-  --color-primary: #017cc0;
-  --color-secondary: #252b3f;
-  --color-accent: #2789c6;
-  --color-light: #e9eff2;
-  --color-text: #666666;
-  --color-muted: #959595;
-  --color-white: #ffffff;
-  --font-body: "Oxygen", sans-serif;
-  --font-heading: "RobotoMedium", sans-serif;
-  --radius-sm: 4px;
-  --radius-md: 6px;
-  --shadow-soft: 0 10px 30px rgba(0, 0, 0, 0.08);
-  --space-8: 8px;
-  --space-12: 12px;
-  --space-16: 16px;
-  --space-24: 24px;
-  --space-32: 32px;
-  --space-48: 48px;
-}
-
-body {
-  font-family: var(--font-body);
-  color: var(--color-text);
-}
-.section-padding {
-  padding: var(--space-48) 0;
-}
-
-a:focus,
-button:focus {
-  outline: 2px solid var(--color-accent);
-  outline-offset: 2px;
-}
-
-/* ============================================
 1.               Start Header CSS
 ===============================================*/
 
@@ -1897,10 +1859,6 @@ body#faq_main_page .section_title{
 }
 .leave_message .section_title {
   margin-bottom: 80px;
-}
-.contact_google_map {
-  width: 100%;
-  height: 591px;
 }
 
 
